@@ -1,0 +1,18 @@
+Game = ["Pressure","Doors","Color or Die","Minecraft","Bloons Td 6"]
+print("Length of list",len(Game))
+print("first element",Game[0])
+print("last element",Game[-1])
+Game.append("fc mobile")
+print(Game)
+Game.remove("fc mobile")
+print(Game)
+Game.pop(2)
+print(Game)
+Game.sort()
+print(Game)
+Game.reverse()
+print(Game)
+Game = Game[1:3]
+print(Game)
+print(Game*2)
+Game.clear()
